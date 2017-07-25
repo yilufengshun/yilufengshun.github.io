@@ -59,6 +59,12 @@ a:hover,
 a:active {
     text-decoration: none;
 }
+li a{
+    color:#666;
+}
+li a:hover{
+    color:rgb(241,0,97);
+}
 
 ol,
 ul,
@@ -179,6 +185,7 @@ h1, h2, h3, h4, h5, h6, p {
    ========================================================================== */
 
 .menu {
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -194,6 +201,8 @@ h1, h2, h3, h4, h5, h6, p {
          -o-transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
             transition: opacity 0.3s ease-out, visibility 0.2s ease-out;
 }
+
+
 
 .menu.visuallyhidden {
     opacity: 0;
@@ -260,6 +269,10 @@ h1, h2, h3, h4, h5, h6, p {
        -moz-transition: background 0.4s ease-out;
          -o-transition: background 0.4s ease-out;
             transition: background 0.4s ease-out; 
+}
+.zuobian{
+text-align:left;
+
 }
 
 .menu-icon span:before {
@@ -403,6 +416,10 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 36px;
     color: #666;
 }
+img {
+
+    width: 100%;
+}
 
 /* ==========================================================================
    Home
@@ -418,6 +435,7 @@ h1, h2, h3, h4, h5, h6, p {
     position: relative;
     text-align: center;
 }
+
 
 .overlay {
     position: absolute;

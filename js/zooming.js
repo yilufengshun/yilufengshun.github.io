@@ -201,7 +201,7 @@
 
       // Translate the image to window center, then scale the image
       this._styles.image.transform =
-        'translate(' + (-200) + 'px,' + translate.y + 'px) ' +
+        'translate(' + -200 + 'px,' + translate.y + 'px) ' +
         'scale(' + scale + ',' + scale + ')'
        // translate.x
     },
